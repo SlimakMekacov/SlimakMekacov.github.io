@@ -1,33 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>dinosaur</title>
-    <link rel="icon" type="image/x-icon" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fsmv.org%2Flearn%2Fblog%2Fwhat-is-a-dinosaur%2F&psig=AOvVaw2viohs8n7B2NnYq0bi-pfZ&ust=1738765122451000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCODS4P6aqosDFQAAAAAdAAAAABAKy">
+    <title>Svět Dinosaurů</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Favicon -->
     <style>
-        table {
-            border: 5px solid;
-            background-color: rgb(121, 168, 255);
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            display: inline-block;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .content {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
         }
     </style>
 </head>
-<body style="background-color: aqua;">
-    <h1 style="text-align: center;">Ptáci</h1>
-    <a href="https://www.w3schools.com/">https://www.w3schools.com/</a>
-    <h2>odkaz na w3schools</h2>
-    <table style="border: 3px solid;width: 100%; background-color: chocolate;">
-        <tr>
-            <th>něco 1</th>
-            <th>něco 2</th>
-            <th>něco 3</th>
-        </tr>
-        <tr>
-            <th>podněco 1</th>
-            <th>podněco 2</th>
-            <th>podněco 3</th>
-        </tr>
-    </table>
+<body>
+    <header>
+        <h1>Svět Dinosaurů</h1>
+        <p>Vítejte v fascinujícím světě prehistorických tvorů!</p>
+    </header>
 
+    <nav>
+        <a href="#dinosauři">Dinosauři</a>
+        <a href="https://cs.wikipedia.org/wiki/Dinosauři" target="_blank">Wikipedia</a>
+        <a href="#kontakt">Kontakt</a>
+    </nav>
+
+    <div class="content">
+        <section id="dinosauři">
+            <h2>Co jsou dinosauři?</h2>
+            <p>Dinosauři byli skupinou plazů, kteří žili na Zemi před miliony let. Patřili mezi nejúspěšnější a nejrozmanitější zvířata, která kdy obývala naši planetu.</p>
+            <img src="https://via.placeholder.com/800x400?text=Dinosaurus" alt="Dinosaurus">
+        </section>
+
+        <section id="kontakt">
+            <h2>Kontakt</h2>
+            <p>Pokud máte zájem se dozvědět více, neváhejte nás kontaktovat.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>Pouze pro studijní účely</p>
+    </footer>
 </body>
 </html>
