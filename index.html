@@ -60,6 +60,12 @@
             max-width: 100%;
             height: auto;
         }
+        .wiki-logo {
+            width: 20px; /* Adjust size */
+            height: auto;
+            vertical-align: middle;
+            margin-right: 8px; /* Add a little space between the logo and text */
+        }
     </style>
 </head>
 <body>
@@ -68,10 +74,13 @@
         <p>Vítejte v fascinujícím světě prehistorických tvorů!</p>
     </header>
     
-        <nav>
-            <a href="#dinosauři">Dinosauři</a>
-            <a href="https://cs.wikipedia.org/wiki/Dinosauři" target="_blank">Wikipedia</a>
-        </nav>
+    <nav>
+        <a href="#dinosauři">Dinosauři</a>
+        <a href="https://cs.wikipedia.org/wiki/Dinosauři" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Wikipedia_logo_v2.svg/1200px-Wikipedia_logo_v2.svg.png" alt="Wikipedia logo" class="wiki-logo">
+            Wikipedia
+        </a>
+    </nav>
 
     <div class="content">
         <section id="dinosauři">
@@ -86,3 +95,4 @@
     </footer>
 </body>
 </html>
+
