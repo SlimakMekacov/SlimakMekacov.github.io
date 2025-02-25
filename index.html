@@ -8,31 +8,29 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background-image: url('https://image.pmgstatic.com/cache/resized/w420/files/images/film/posters/164/967/164967089_8d5cac.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
             margin: 0;
             padding: 0;
         }
         header {
-            background-color: #333;
+            background-color: rgba(51, 51, 51, 0.8);
             color: white;
             padding: 1rem;
             text-align: center;
         }
         nav {
-            background-color: #444;
+            background-color: rgba(68, 68, 68, 0.8);
             overflow: hidden;
             position: relative;
-            background-image: url('https://www.sleep-well.cz/sw/img/produkty/Plysak-polstarek-z-mikrospandexu-DINOSAURUS-zeleny-6001980902574.jpeg');
-            background-size: 40px 40px;
-            background-repeat: no-repeat;
-            background-position: left center;
         }
         nav a {
             color: white;
             padding: 14px 20px;
             display: inline-block;
             text-decoration: none;
-            padding-left: 50px;
         }
         nav a:hover {
             background-color: #ddd;
@@ -40,25 +38,16 @@
         }
         .content {
             padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            margin: 20px;
+            border-radius: 10px;
         }
         footer {
-            background-color: #333;
+            background-color: rgba(51, 51, 51, 0.8);
             color: white;
             text-align: center;
             padding: 10px;
-            position: fixed;
             width: 100%;
-            bottom: 0;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-        .wiki-logo {
-            width: 20px;
-            height: auto;
-            vertical-align: middle;
-            margin-right: 8px;
         }
         table {
             width: 100%;
@@ -71,7 +60,7 @@
             text-align: left;
         }
         th {
-            background-color: #333;
+            background-color: rgba(51, 51, 51, 0.8);
             color: white;
         }
     </style>
@@ -85,58 +74,89 @@
     <nav>
         <a href="#dinosauři">Dinosauři</a>
         <a href="#tabulka">Tabulka</a>
-        <a href="https://cs.wikipedia.org/wiki/Dinosauři" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/155px-Wikipedia-logo-v2.svg.png?20100702151035" alt="Wikipedia logo" class="wiki-logo">
-            Wikipedia
-        </a>
+        <a href="https://cs.wikipedia.org/wiki/Dinosauři" target="_blank">Wikipedia</a>
     </nav>
 
     <div class="content">
         <section id="dinosauři">
             <h2>Co jsou dinosauři?</h2>
             <p>Dinosauři byli skupinou plazů, kteří žili na Zemi před miliony let. Patřili mezi nejúspěšnější a nejrozmanitější zvířata, která kdy obývala naši planetu.</p>
-            <img src="https://image.pmgstatic.com/cache/resized/w420/files/images/film/posters/164/967/164967089_8d5cac.jpg" alt="Dinosaurus">
         </section>
         
         <section id="tabulka">
             <h2>Tabulka dinosaurů</h2>
             <table>
                 <tr>
+                    <th>Skupina</th>
                     <th>Jméno</th>
-                    <th>Doba existence</th>
-                    <th>Strava</th>
-                    <th>Oblast výskytu</th>
+                    <th>Období</th>
+                    <th>Rozměry</th>
+                    <th>Informace</th>
                 </tr>
                 <tr>
-                    <td>Tyrannosaurus Rex</td>
-                    <td>Křída</td>
-                    <td>Masožravec</td>
-                    <td>Severní Amerika</td>
+                    <td>Teropodi</td>
+                    <td>Tyrannosaurus rex</td>
+                    <td>Křída (68-66 mil. let)</td>
+                    <td>12-13 m, 8-10 tun</td>
+                    <td>Jeden z největších dravců, silné čelisti s ostrými zuby.</td>
                 </tr>
                 <tr>
-                    <td>Triceratops</td>
-                    <td>Křída</td>
-                    <td>Býložravec</td>
-                    <td>Severní Amerika</td>
-                </tr>
-                <tr>
+                    <td></td>
                     <td>Velociraptor</td>
-                    <td>Křída</td>
-                    <td>Masožravec</td>
-                    <td>Asie</td>
+                    <td>Křída (75-71 mil. let)</td>
+                    <td>2 m, 15 kg</td>
+                    <td>Rychlý a inteligentní, měl ostré drápy na zadních nohách.</td>
                 </tr>
                 <tr>
+                    <td>Sauropodi</td>
                     <td>Brachiosaurus</td>
-                    <td>Jura</td>
-                    <td>Býložravec</td>
-                    <td>Severní Amerika</td>
+                    <td>Jura (154-153 mil. let)</td>
+                    <td>18-21 m, 30-50 tun</td>
+                    <td>Měl dlouhý krk a končetiny delší než jiné sauropody.</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Diplodocus</td>
+                    <td>Jura (154-152 mil. let)</td>
+                    <td>25-30 m, 10-15 tun</td>
+                    <td>Velmi dlouhý ocas, používal ho k obraně.</td>
+                </tr>
+                <tr>
+                    <td>Ornitopodi</td>
+                    <td>Iguanodon</td>
+                    <td>Křída (139-125 mil. let)</td>
+                    <td>10 m, 3-5 tun</td>
+                    <td>Měl velké palcové trny, používané k obraně.</td>
+                </tr>
+                <tr>
+                    <td>Stegosauridi</td>
+                    <td>Stegosaurus</td>
+                    <td>Jura (155-150 mil. let)</td>
+                    <td>9 m, 4-5 tun</td>
+                    <td>Měl velké kostěné pláty na zádech a ostnatý ocas.</td>
+                </tr>
+                <tr>
+                    <td>Ankylosauridi</td>
+                    <td>Ankylosaurus</td>
+                    <td>Křída (68-66 mil. let)</td>
+                    <td>6-8 m, 5-8 tun</td>
+                    <td>Těžce obrněný s mohutným ocasním kyjem.</td>
+                </tr>
+                <tr>
+                    <td>Ceratopsidi</td>
+                    <td>Triceratops</td>
+                    <td>Křída (68-66 mil. let)</td>
+                    <td>9 m, 6-12 tun</td>
+                    <td>Měl tři rohy a silný kostěný límec pro obranu.</td>
                 </tr>
             </table>
+            <p style="text-align: center; margin-top: 20px;">Pouze pro studijní účely</p>
         </section>
     </div>
 
     <footer>
-        <p>Pouze pro studijní účely</p>
+        <p>&copy; 2024 Svět Dinosaurů</p>
     </footer>
 </body>
 </html>
+
