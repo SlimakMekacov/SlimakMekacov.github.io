@@ -175,7 +175,7 @@
         <mxCell id="A8Wuab01_Kk9eNG9Iye0-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A8Wuab01_Kk9eNG9Iye0-44" target="A8Wuab01_Kk9eNG9Iye0-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="A8Wuab01_Kk9eNG9Iye0-44" value="Namažte jí" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="A8Wuab01_Kk9eNG9Iye0-44" value="Namažte jí čím chcete" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="580" y="1140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="A8Wuab01_Kk9eNG9Iye0-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A8Wuab01_Kk9eNG9Iye0-46" target="A8Wuab01_Kk9eNG9Iye0-50">
